@@ -1,0 +1,291 @@
+{
+  "header": {
+    "coffee": "Buy me a coffee",
+    "toggleTheme": "Toggle theme"
+  },
+  "sidebar": {
+    "title": "shadcn Extensions",
+    "components": "Components",
+    "coffee": "Buy me a coffee"
+  },
+  "navigation": {
+    "home": "Home",
+    "combobox": "Combobox",
+    "inputs": "Inputs",
+    "dialogs": "Dialogs"
+  },
+  "home": {
+    "title": "shadcn Extensions",
+    "subtitle": "Extend your shadcn/ui components with powerful features",
+    "description": "A collection of reusable, customizable components built on top of shadcn/ui to enhance your development experience.",
+    "getStarted": "Get Started",
+    "aboutProject": "About {projectName}",
+    "aboutDescription": "Explore {projectName}, a set of extensions designed to supercharge your shadcn/ui projects with advanced functionality and seamless integration.",
+    "installDependencies": "Install Dependencies",
+    "setupShadcn": "Set Up shadcn/ui",
+    "copyComponent": "Copy Component",
+    "copyComponentDescription": "Copy the component code from the examples and integrate it into your project.",
+    "installationDescription": "Follow these steps to get started with shadcn Extensions in your project.",
+    "supportMessage": "Support the project and keep it thriving!",
+    "supportDescription": "Your support helps us maintain and improve this open-source project. Consider contributing or sponsoring us.",
+    "supportAppreciation": "Thank you for using shadcn Extensions! ❤️",
+    "componentsDescription": "Discover our collection of enhanced components for shadcn/ui.",
+    "components": "Components",
+    "support": "Support",
+    "github": "GitHub",
+    "coffee": "Buy me a coffee",
+    "search": "Search",
+    "validation": "Validation",
+    "installation": "Installation",
+    "tests": "Tests",
+    "updates": "Updates",
+    "weekly": "Weekly",
+    "new": "New",
+    "viewExamples": "View Examples",
+    "apiReference": "API Reference",
+    "sponsor": "Sponsor",
+    "configuration": "Configuration",
+    "configurationDescription": "Learn how to configure shadcn Extensions for your project.",
+    "comboboxTitle": "Combobox",
+    "comboboxDescription": "A powerful and accessible combobox component with support for asynchronous loading, infinite scrolling, and autocomplete.",
+    "comboboxExamplesPaginationTitle": "Pagination Combobox",
+    "comboboxExamplesSimpleTitle": "Simple Combobox",
+    "comboboxExamplesFormTitle": "Form Combobox",
+    "inputsTitle": "Inputs",
+    "inputsDescription": "Customizable input components with advanced features, extended from the original ShadCN input. Includes support for input masking and currency formatting.",
+    "inputsExamplesMaskedTitle": "Masked Input",
+    "inputsExamplesCurrencyTitle": "Currency Input",
+    "dialogsTitle": "Dialogs",
+    "dialogsDescription": "Flexible and accessible dialog component, event-driven with support for asynchronous calls. Its decoupled approach allows awaiting the dialog’s response without manually managing state.",
+    "dialogsExamplesConfirmTitle": "Confirm Dialog",
+    "dialogsExamplesInputTitle": "Input Dialog",
+    "dialogsExamplesSelectTitle": "Select Dialog"
+  },
+  "inputs": {
+    "currencyExamples": {
+      "pageTitle": "Currency Input Examples",
+      "pageDescription": "Examples of currency input components with async loading and different form management approaches",
+      "tabs": {
+        "useState": "useState",
+        "reactHookForm": "React Hook Form",
+        "code": "Code"
+      },
+      "useState": {
+        "title": "CurrencyInput with useState",
+        "description": "Currency values loaded from a simulated API using useState"
+      },
+      "reactHookForm": {
+        "title": "React Hook Form",
+        "description": "Currency form with validation using React Hook Form"
+      },
+      "fields": {
+        "salary": {
+          "label": "Salary",
+          "placeholder": "Enter salary amount",
+          "loading": "Loading salary..."
+        },
+        "bonus": {
+          "label": "Bonus",
+          "placeholder": "Enter bonus amount",
+          "loading": "Loading bonus..."
+        },
+        "investment": {
+          "label": "Investment",
+          "placeholder": "Enter investment amount",
+          "loading": "Loading investment..."
+        },
+        "savings": {
+          "label": "Savings",
+          "placeholder": "Enter savings amount",
+          "loading": "Loading savings..."
+        }
+      },
+      "cleanValue": "Clean value",
+      "summary": {
+        "title": "Data summary"
+      },
+      "currentValues": "Current values",
+      "loading": "Loading...",
+      "notInformed": "Not informed",
+      "buttons": {
+        "load": "Load Data",
+        "reset": "Reset",
+        "submit": "Submit"
+      },
+      "codeExamples": {
+        "currencyInputComponent": "CurrencyInput Component",
+        "currencyInputDescription": "Reusable currency input component with formatting and symbol display",
+        "useStateExample": "useState Example",
+        "useStateDescription": "Implementation using useState for form state management",
+        "reactHookFormExample": "React Hook Form Example",
+        "reactHookFormDescription": "Implementation using React Hook Form with validation"
+      }
+    },
+    "tabs": {
+      "masked": "Masked Inputs",
+      "currency": "Currency Inputs",
+      "code": "Code"
+    },
+    "basicExamples": {
+      "pageTitle": "Custom Input Examples",
+      "pageDescription": "Demonstrations of CurrencyInput and MaskedInput components with different approaches",
+      "tabs": {
+        "useState": "useState",
+        "reactHookForm": "React Hook Form",
+        "code": "Code"
+      },
+      "useState": {
+        "title": "MaskedInput with useState",
+        "description": "Masked values loaded from a simulated API using useState"
+      },
+      "reactHookForm": {
+        "title": "MaskedInput with React Hook Form",
+        "description": "Masked form with asynchronously loaded data and validation"
+      },
+      "codeExamples": {
+        "currencyInputComponent": "CurrencyInput Component",
+        "currencyInputDescription": "Reusable currency input componentasdasd with formatting and symbol display",
+        "maskedInputComponent": "MaskedInput Component",
+        "maskedInputDescription": "Reusable currency input component with formatting masks",
+        "useStateExample": "useState Example",
+        "useStateDescription": "Implementation using useState for form state management",
+        "reactHookFormExample": "React Hook Form Example",
+        "reactHookFormDescription": "Implementation using React Hook Form with validation"
+      },
+      "fields": {
+        "cpf": {
+          "label": "CPF",
+          "placeholder": "Enter CPF",
+          "loading": "Loading CPF..."
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Enter phone",
+          "loading": "Loading phone..."
+        },
+        "cep": {
+          "label": "ZIP Code",
+          "placeholder": "Enter ZIP code",
+          "loading": "Loading ZIP code..."
+        },
+        "birthDate": {
+          "label": "Birth Date",
+          "placeholder": "Enter date",
+          "loading": "Loading date..."
+        }
+      },
+      "buttons": {
+        "load": "Load Data",
+        "reset": "Reset",
+        "submit": "Save Data"
+      },
+      "summary": {
+        "title": "Data summary"
+      },
+      "cleanValue": "Clean value",
+      "currentValues": "Current values (clean)",
+      "loading": "Loading...",
+      "notInformed": "Not informed"
+    }
+  },
+  "dialogs": {
+    "title": "Asynchronous Dialogs with Promises",
+    "subtitle": "Flexible and accessible dialog component, event-driven with support for asynchronous calls. Its decoupled approach allows awaiting the dialog’s response without manually managing state.",
+    "examples": {
+      "confirmation": {
+        "title": "Confirm Dialog",
+        "description": "A simple dialog to confirm actions."
+      },
+      "input": {
+        "title": "Input Dialog",
+        "description": "Interactive dialogs for capturing user data with validation and different input types."
+      },
+      "destructive": {
+        "title": "Dangerous Dialog",
+        "description": "A simple dialog to confirm destructive actions."
+      }
+    },
+    "buttons": {
+      "textInput": "Text Input",
+      "optionSelect": "Option Selection",
+      "simpleConfirm": "Simple Confirm",
+      "destructiveConfirm": "Dangerous confirm",
+      "completeForm": "Complete Form",
+      "asyncOperation": "Async Operation",
+      "customDialog": "Custom Dialog"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "The Dialog Service uses an event-based system and Promises to manage dialogs",
+      "features": {
+        "promiseBased": {
+          "title": "Promise-based",
+          "description": "Each dialog returns a Promise that resolves when the user interacts"
+        },
+        "typescript": {
+          "title": "TypeScript",
+          "description": "Complete typing to ensure type safety in all interactions"
+        },
+        "eventDriven": {
+          "title": "Event-driven",
+          "description": "Decoupled event system for maximum flexibility"
+        },
+        "customizable": {
+          "title": "Customizable",
+          "description": "Accepts any React component as dialog content"
+        }
+      }
+    },
+    "messages": {
+      "cancelled": "Cancelled",
+      "deleted": "Deleted",
+      "confirmed": "Confirmed",
+      "selected": "Selected"
+    },
+    "step1": "This is an event manager. Instead of using `EventSource`, which includes a large payload, I created a lightweight custom solution. Place this file in the `lib` folder.",
+    "step2": "This is the dialog service, featuring a typed event manager called `DialogEventManager` designed for specific dialogs, along with the service implementation.",
+    "step3": "Integrate the `DialogService` into your `RootLayout`.",
+    "step4": "Call the named event or create a function to trigger it, passing the component and props. The dialog will be instantiated within the `DialogService` wrapper and will await a response.",
+    "step5": "Examples"
+  },
+  "combobox": {
+    "title": "Combobox With Pagination and async fetch",
+    "subtitle": "A powerful and accessible combobox component with support for asynchronous loading, infinite scrolling, and autocomplete.",
+    "examples": {
+      "pagination": {
+        "title": "Pagination Combobox",
+        "description": "A combobox that asynchronously loads options with pagination support."
+      },
+      "simple": {
+        "title": "Simple Combobox",
+        "description": "A basic combobox with static options and search functionality."
+      },
+      "form": {
+        "title": "Form Combobox",
+        "description": "A combobox integrated with forms, including validation and state management.",
+        "userLabel": "Combobox for forms",
+        "userDescription": "Select an option to populate the form with validation and state management.",
+        "userSearchPlaceholder": "Type to search options...",
+        "userEmptyMessage": "No options found.",
+        "userLoadingMessage": "Loading options...",
+        "submit": "Submit",
+        "reset": "Reset"
+      }
+    },
+    "api": {
+      "reference": "API Reference",
+      "description": "API reference for the Combobox component, including properties and types.",
+      "props": "Properties",
+      "types": "Types",
+      "asyncSearchFn": "Function for asynchronous option search, returning a SearchResponse object.",
+      "queryKey": "Key used to identify the query in asynchronous search.",
+      "onSelect": "Callback function triggered when an option is selected.",
+      "initialValue": "Initial value of the combobox, in ComboBoxItemType format.",
+      "placeholder": "Placeholder text displayed in the input field.",
+      "searchPlaceholder": "Placeholder text displayed in the search field.",
+      "pageSize": "Number of items per page for asynchronous loading.",
+      "shouldCloseOnSelect": "Indicates whether the combobox should close after an option is selected.",
+      "popoverWidth": "Width of the combobox popover."
+    }
+  }
+}

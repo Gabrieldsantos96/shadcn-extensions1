@@ -1,0 +1,291 @@
+{
+  "header": {
+    "coffee": "Me pague um café",
+    "toggleTheme": "Alternar tema"
+  },
+  "sidebar": {
+    "title": "Extensões shadcn",
+    "components": "Componentes",
+    "coffee": "Me pague um café"
+  },
+  "navigation": {
+    "home": "Início",
+    "combobox": "Combobox",
+    "inputs": "Entradas",
+    "dialogs": "Diálogos"
+  },
+  "home": {
+    "title": "Extensões shadcn",
+    "subtitle": "Amplie seus componentes shadcn/ui com recursos poderosos",
+    "description": "Uma coleção de componentes reutilizáveis e personalizáveis construídos sobre o shadcn/ui para aprimorar sua experiência de desenvolvimento.",
+    "getStarted": "Começar",
+    "aboutProject": "Sobre {projectName}",
+    "aboutDescription": "Explore {projectName}, um conjunto de extensões projetadas para turbinar seus projetos shadcn/ui com funcionalidades avançadas e integração perfeita.",
+    "installDependencies": "Instalar Dependências",
+    "setupShadcn": "Configurar shadcn/ui",
+    "copyComponent": "Copiar Componente",
+    "copyComponentDescription": "Copie o código do componente dos exemplos e integre-o ao seu projeto.",
+    "installationDescription": "Siga estes passos para começar com as Extensões shadcn em seu projeto.",
+    "supportMessage": "Apoie o projeto e mantenha-o prosperando!",
+    "supportDescription": "Seu apoio nos ajuda a manter e melhorar este projeto de código aberto. Considere contribuir ou nos patrocinar.",
+    "supportAppreciation": "Obrigado por usar as Extensões shadcn! ❤️",
+    "componentsDescription": "Descubra nossa coleção de componentes aprimorados para shadcn/ui.",
+    "components": "Componentes",
+    "support": "Apoio",
+    "github": "GitHub",
+    "coffee": "Me pague um café",
+    "search": "Pesquisar",
+    "validation": "Validação",
+    "installation": "Instalação",
+    "tests": "Testes",
+    "updates": "Atualizações",
+    "weekly": "Semanal",
+    "new": "Novo",
+    "viewExamples": "Ver Exemplos",
+    "apiReference": "Referência da API",
+    "sponsor": "Patrocinar",
+    "configuration": "Configuração",
+    "configurationDescription": "Aprenda como configurar as Extensões shadcn para seu projeto.",
+    "comboboxTitle": "Combobox",
+    "comboboxDescription": "Um componente combobox poderoso e acessível com suporte para carregamento assíncrono, rolagem infinita e autocompletar.",
+    "comboboxExamplesPaginationTitle": "Combobox com Paginação",
+    "comboboxExamplesSimpleTitle": "Combobox Simples",
+    "comboboxExamplesFormTitle": "Combobox de Formulário",
+    "inputsTitle": "Entradas",
+    "inputsDescription": "Componentes de entrada personalizáveis com recursos avançados, estendidos do componente de entrada original do ShadCN. Inclui suporte para máscaras de entrada e formatação de moeda.",
+    "inputsExamplesMaskedTitle": "Entrada com Máscara",
+    "inputsExamplesCurrencyTitle": "Entrada de Moeda",
+    "dialogsTitle": "Diálogos",
+    "dialogsDescription": "Componente de diálogo flexível e acessível, orientado a eventos com suporte a chamadas assíncronas. Sua abordagem desacoplada permite aguardar a resposta do diálogo sem gerenciar o estado manualmente.",
+    "dialogsExamplesConfirmTitle": "Diálogo de Confirmação",
+    "dialogsExamplesInputTitle": "Diálogo de Entrada",
+    "dialogsExamplesSelectTitle": "Diálogo de Seleção"
+  },
+  "inputs": {
+    "currencyExamples": {
+      "pageTitle": "Exemplos de Entrada de Moeda",
+      "pageDescription": "Exemplos de componentes de entrada de moeda com carregamento assíncrono e diferentes abordagens de gerenciamento de formulário",
+      "tabs": {
+        "useState": "useState",
+        "reactHookForm": "React Hook Form",
+        "code": "Código"
+      },
+      "useState": {
+        "title": "CurrencyInput com useState",
+        "description": "Valores de moeda carregados de uma API simulada usando useState"
+      },
+      "reactHookForm": {
+        "title": "React Hook Form",
+        "description": "Formulário de moeda com validação usando React Hook Form"
+      },
+      "fields": {
+        "salary": {
+          "label": "Salário",
+          "placeholder": "Digite o valor do salário",
+          "loading": "Carregando salário..."
+        },
+        "bonus": {
+          "label": "Bônus",
+          "placeholder": "Digite o valor do bônus",
+          "loading": "Carregando bônus..."
+        },
+        "investment": {
+          "label": "Investimento",
+          "placeholder": "Digite o valor do investimento",
+          "loading": "Carregando investimento..."
+        },
+        "savings": {
+          "label": "Poupança",
+          "placeholder": "Digite o valor da poupança",
+          "loading": "Carregando poupança..."
+        }
+      },
+      "cleanValue": "Valor limpo",
+      "summary": {
+        "title": "Resumo dos dados"
+      },
+      "currentValues": "Valores atuais",
+      "loading": "Carregando...",
+      "notInformed": "Não informado",
+      "buttons": {
+        "load": "Carregar Dados",
+        "reset": "Redefinir",
+        "submit": "Enviar"
+      },
+      "codeExamples": {
+        "currencyInputComponent": "Componente CurrencyInput",
+        "currencyInputDescription": "Componente de entrada de moeda reutilizável com formatação e exibição de símbolo",
+        "useStateExample": "Exemplo com useState",
+        "useStateDescription": "Implementação usando useState para gerenciamento de estado do formulário",
+        "reactHookFormExample": "Exemplo com React Hook Form",
+        "reactHookFormDescription": "Implementação usando React Hook Form com validação"
+      }
+    },
+    "tabs": {
+      "masked": "Entradas com Máscara",
+      "currency": "Entradas de Moeda",
+      "code": "Código"
+    },
+    "basicExamples": {
+      "pageTitle": "Exemplos de Entrada Personalizada",
+      "pageDescription": "Demonstrações dos componentes CurrencyInput e MaskedInput com diferentes abordagens",
+      "tabs": {
+        "useState": "useState",
+        "reactHookForm": "React Hook Form",
+        "code": "Código"
+      },
+      "useState": {
+        "title": "MaskedInput com useState",
+        "description": "Valores com máscara carregados de uma API simulada usando useState"
+      },
+      "reactHookForm": {
+        "title": "MaskedInput com React Hook Form",
+        "description": "Formulário com máscara com dados carregados assincronamente e validação"
+      },
+      "codeExamples": {
+        "currencyInputComponent": "Componente CurrencyInput",
+        "currencyInputDescription": "Componente de entrada de moeda reutilizável com formatação e exibição de símbolo",
+        "maskedInputComponent": "Componente MaskedInput",
+        "maskedInputDescription": "Componente de entrada de moeda reutilizável com máscaras de formatação",
+        "useStateExample": "Exemplo com useState",
+        "useStateDescription": "Implementação usando useState para gerenciamento de estado do formulário",
+        "reactHookFormExample": "Exemplo com React Hook Form",
+        "reactHookFormDescription": "Implementação usando React Hook Form com validação"
+      },
+      "fields": {
+        "cpf": {
+          "label": "CPF",
+          "placeholder": "Digite o CPF",
+          "loading": "Carregando CPF..."
+        },
+        "phone": {
+          "label": "Telefone",
+          "placeholder": "Digite o telefone",
+          "loading": "Carregando telefone..."
+        },
+        "cep": {
+          "label": "CEP",
+          "placeholder": "Digite o CEP",
+          "loading": "Carregando CEP..."
+        },
+        "birthDate": {
+          "label": "Data de Nascimento",
+          "placeholder": "Digite a data",
+          "loading": "Carregando data..."
+        }
+      },
+      "buttons": {
+        "load": "Carregar Dados",
+        "reset": "Redefinir",
+        "submit": "Salvar Dados"
+      },
+      "summary": {
+        "title": "Resumo dos dados"
+      },
+      "cleanValue": "Valor limpo",
+      "currentValues": "Valores atuais (limpos)",
+      "loading": "Carregando...",
+      "notInformed": "Não informado"
+    }
+  },
+  "dialogs": {
+    "title": "Diálogos Baseados em Promises",
+    "subtitle": "Componente de diálogo flexível e acessível, orientado a eventos com suporte a chamadas assíncronas. Sua abordagem desacoplada permite aguardar a resposta do diálogo sem gerenciar o estado manualmente.",
+    "examples": {
+      "confirmation": {
+        "title": "Diálogo de Confirmação",
+        "description": "Um diálogo simples para confirmar ações."
+      },
+      "input": {
+        "title": "Diálogo de Entrada",
+        "description": "Diálogos interativos para captura de dados do usuário com validação e diferentes tipos de entrada."
+      },
+      "destructive": {
+        "title": "Diálogo de Confirmação",
+        "description": "Um diálogo simples para confirmar ações destrutivas."
+      }
+    },
+    "buttons": {
+      "textInput": "Entrada de Texto",
+      "optionSelect": "Seleção de Opções",
+      "completeForm": "Formulário Completo",
+      "simpleConfirm": "Confirmação",
+      "destructiveConfirm": "Confirmação",
+      "asyncOperation": "Operação Assíncrona",
+      "customDialog": "Diálogo Personalizado"
+    },
+    "howItWorks": {
+      "title": "Como Funciona",
+      "description": "O Dialog Service utiliza um sistema baseado em eventos e Promises para gerenciar diálogos",
+      "features": {
+        "promiseBased": {
+          "title": "Baseado em Promises",
+          "description": "Cada diálogo retorna uma Promise que é resolvida quando o usuário interage"
+        },
+        "typescript": {
+          "title": "TypeScript",
+          "description": "Tipagem completa para garantir type safety em todas as interações"
+        },
+        "eventDriven": {
+          "title": "Orientado a Eventos",
+          "description": "Sistema de eventos desacoplado para máxima flexibilidade"
+        },
+        "customizable": {
+          "title": "Customizável",
+          "description": "Aceita qualquer componente React como conteúdo do diálogo"
+        }
+      }
+    },
+    "messages": {
+      "cancelled": "Cancelado",
+      "deleted": "Deletado",
+      "confirmed": "Confirmado",
+      "selected": "Selecionado"
+    },
+    "step1": "Este é um gerenciador de eventos. Em vez de usar o `EventSource`, que traz uma carga significativa, criei uma solução leve personalizada. Coloque este arquivo na pasta `lib`.",
+    "step2": "Este é o serviço de diálogo, que inclui um gerenciador de eventos tipado chamado `DialogEventManager`, projetado para diálogos específicos, juntamente com a implementação do serviço.",
+    "step3": "Integre o `DialogService` ao seu `RootLayout`.",
+    "step4": "Chame o evento nomeado ou crie uma função para acioná-lo, passando o componente e as props. O diálogo será instanciado dentro do wrapper do `DialogService` e aguardará uma resposta.",
+    "step5": "Exemplos"
+  },
+  "combobox": {
+    "title": "Combobox com Paginação e Carregamento Assíncrono",
+    "subtitle": "Componente de combobox poderoso e acessível com suporte a carregamento assíncrono, rolagem infinita e autocompletar.",
+    "examples": {
+      "pagination": {
+        "title": "Combobox com Paginação",
+        "description": "Um combobox que carrega opções assincronamente com suporte a paginação."
+      },
+      "simple": {
+        "title": "Combobox Simples",
+        "description": "Um combobox básico com opções estáticas e funcionalidade de busca."
+      },
+      "form": {
+        "title": "Combobox com Formulário",
+        "description": "Um combobox integrado a formulários com validação e gerenciamento de estado.",
+        "userLabel": "Combobox para formulários",
+        "userDescription": "Selecione uma opção para preencher o formulário com validação e controle de estado.",
+        "userSearchPlaceholder": "Digite para buscar opções...",
+        "userEmptyMessage": "Nenhuma opção encontrada.",
+        "userLoadingMessage": "Carregando opções...",
+        "submit": "Enviar",
+        "reset": "Redefinir"
+      }
+    },
+    "api": {
+      "reference": "API de referência",
+      "description": "Referência da API para o componente Combobox, incluindo propriedades e tipos.",
+      "props": "Propriedades",
+      "types": "Tipos",
+      "asyncSearchFn": "Função para busca assíncrona de opções, retornando um objeto SearchResponse.",
+      "queryKey": "Chave usada para identificar a consulta na busca assíncrona.",
+      "onSelect": "Função de callback chamada quando uma opção é selecionada.",
+      "initialValue": "Valor inicial do combobox, no formato ComboBoxItemType.",
+      "placeholder": "Texto de placeholder exibido no campo de entrada.",
+      "searchPlaceholder": "Texto de placeholder exibido no campo de busca.",
+      "pageSize": "Número de itens por página para carregamento assíncrono.",
+      "shouldCloseOnSelect": "Indica se o combobox deve fechar após a seleção de uma opção.",
+      "popoverWidth": "Largura do popover do combobox."
+    }
+  }
+}
