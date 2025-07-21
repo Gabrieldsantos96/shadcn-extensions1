@@ -12,6 +12,7 @@ import { Button } from "@/src/components/ui/button";
 import { Code, Coffee, Heart, Puzzle, Zap } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import TechCarousel from "../components/tech-carousel";
 
 export function Home() {
   const t = useTranslations("home");
@@ -62,26 +63,7 @@ export function Home() {
         <p className="text-xl text-muted-foreground mb-6">
           {translations.subtitle}
         </p>
-        <div className="flex items-center justify-center gap-4">
-          <Badge variant="secondary" className="text-sm">
-            <Code className="h-3 w-3 mr-1" />
-            TypeScript
-          </Badge>
-          <Badge variant="secondary" className="text-sm">
-            <Zap className="h-3 w-3 mr-1" />
-            ShadCN
-          </Badge>
-          <Badge variant="secondary" className="text-sm">
-            Tailwind CSS
-          </Badge>
-          <Badge variant="secondary" className="text-sm">
-            React-Hook-Form
-          </Badge>
-
-          <Badge variant="secondary" className="text-sm">
-            React-Query
-          </Badge>
-        </div>
+        <TechCarousel />
       </div>
 
       <Card className="mb-8">
