@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
       document.cookie
         .split("; ")
         .find((row) => row.startsWith("NEXT_LOCALE="))
-        ?.split("=")[1] || "en";
+        ?.split("=")[1] || "pt-BR";
     setCurrentLanguage(savedLanguage);
 
     const urlLanguage = pathname.split("/")[1];
