@@ -240,7 +240,8 @@
       "cancelled": "Cancelado",
       "deleted": "Deletado",
       "confirmed": "Confirmado",
-      "selected": "Selecionado"
+      "selected": "Selecionado",
+      "saved": "Salvo"
     },
     "step1": "Este é um gerenciador de eventos. Em vez de usar o `EventSource`, que traz uma carga significativa, criei uma solução leve personalizada. Coloque este arquivo na pasta `lib`.",
     "step2": "Este é o serviço de diálogo, que inclui um gerenciador de eventos tipado chamado `DialogEventManager`, projetado para diálogos específicos, juntamente com a implementação do serviço.",

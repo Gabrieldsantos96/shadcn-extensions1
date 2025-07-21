@@ -240,7 +240,8 @@
       "cancelled": "Cancelled",
       "deleted": "Deleted",
       "confirmed": "Confirmed",
-      "selected": "Selected"
+      "selected": "Selected",
+      "saved": "Confirmed"
     },
     "step1": "This is an event manager. Instead of using `EventSource`, which includes a large payload, I created a lightweight custom solution. Place this file in the `lib` folder.",
     "step2": "This is the dialog service, featuring a typed event manager called `DialogEventManager` designed for specific dialogs, along with the service implementation.",

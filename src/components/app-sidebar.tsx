@@ -1,6 +1,6 @@
 "use client";
 
-import { Home, Puzzle, Type, MessageSquare } from "lucide-react";
+import { Home, Puzzle, Type, MessageSquare, Github } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -41,6 +41,11 @@ export function AppSidebar() {
       title: tNavigation("dialogs"),
       url: `/examples/dialogs`,
       icon: MessageSquare,
+    },
+    {
+      title: tNavigation("dialogs"),
+      url: `https://github.com/Gabrieldsantos96/shadcn-extensions1`,
+      icon: Github,
     },
   ];
 
