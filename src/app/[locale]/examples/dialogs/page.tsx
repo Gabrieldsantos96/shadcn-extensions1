@@ -1,6 +1,6 @@
 import { DialogsPage } from "@/src/_pages/_dialogs";
 
-export function Index() {
+export default function Index() {
   return <DialogsPage />;
 }
 

@@ -22,23 +22,23 @@ export const searchUsers = async (
       paginatedQueryString += `&name_like=${encodeURIComponent(searchTerm)}`;
     }
 
-    let countQuery = "";
-    if (searchTerm) {
-      countQuery = `?name_like=${encodeURIComponent(searchTerm)}`;
-    }
-
-    const [paginatedResponse, fullResponse] = await Promise.all([
-      fetch(`http://localhost:4000/users?${paginatedQueryString}`),
-      fetch(`http://localhost:4000/users?${countQuery}`),
+    const [paginatedResponse, totalResponse] = await Promise.all([
+      fetch(`/api/users?${paginatedQueryString}`),
+      fetch(
+        `/api/users?${
+          searchTerm ? `name_like=${encodeURIComponent(searchTerm)}` : ""
+        }`,
+        {
+          method: "HEAD",
+        }
+      ),
     ]);
-    const paginatedData = await paginatedResponse.json().then((s) =>
-      s.map((s: User) => ({
-        label: s.name,
-        value: s.id,
-      }))
-    );
 
-    const totalItems = await fullResponse.json().then((s) => s.length);
+    const paginatedData = await paginatedResponse.json();
+    const totalItems = parseInt(
+      totalResponse.headers.get("content-length") || "0",
+      10
+    );
 
     return {
       data: paginatedData,
@@ -55,12 +55,13 @@ export const searchUsers = async (
   }
 };
 
-export const searchUserById = async (id: string): Promise<User> => {
+export const searchUserById = async (id: string): Promise<User | null> => {
   try {
-    const data = await fetch(
-      `http://localhost:4000/users/${encodeURIComponent(id)}`
-    ).then((s) => s.json());
-
+    const response = await fetch(`/api/users/${encodeURIComponent(id)}`);
+    if (!response.ok) {
+      return null;
+    }
+    const data = await response.json();
     return data;
   } catch (error) {
     console.error("Error fetching user by ID:", error);

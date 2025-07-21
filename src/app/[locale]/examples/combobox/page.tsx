@@ -1,6 +1,6 @@
 import { ComboboxPage } from "@/src/_pages/_combobox";
 
-export function Index() {
+export default function Index() {
   return <ComboboxPage />;
 }
 
