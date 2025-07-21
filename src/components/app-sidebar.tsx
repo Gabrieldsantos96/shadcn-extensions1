@@ -43,7 +43,7 @@ export function AppSidebar() {
       icon: MessageSquare,
     },
     {
-      title: tNavigation("dialogs"),
+      title: "Github Repo",
       url: `https://github.com/Gabrieldsantos96/shadcn-extensions1`,
       icon: Github,
     },
