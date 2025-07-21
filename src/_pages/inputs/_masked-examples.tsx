@@ -571,7 +571,7 @@ function MaskedAsyncFormExample() {
   );
 }
 
-export default function MaskedExamples() {
+export function MaskedExamples() {
   const t = useTranslations("inputs.basicExamples");
 
   return (

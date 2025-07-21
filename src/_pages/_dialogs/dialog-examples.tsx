@@ -5,7 +5,7 @@ import { Button } from "@/src/components/ui/button";
 import { confirmDialog, inputDialog, selectDialog } from "./actions";
 import { toast } from "sonner";
 import { useTranslations } from "next-intl";
-import { CodeViewer } from "../code-view";
+import { CodeViewer } from "@/src/components/code-view";
 
 const DialogExamplesCode = `export function DialogExamples() {
   const t = useTranslations("dialogs");

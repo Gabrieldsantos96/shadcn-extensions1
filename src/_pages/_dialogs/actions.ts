@@ -10,7 +10,7 @@ export async function confirmDialog(
   }
 ): Promise<boolean> {
   const { ConfirmDialog } = await import(
-    "@/src/components/dialogs/confirm-dialog"
+    "@/src/_pages/_dialogs/confirm-dialog"
   );
   return openDialog<boolean>(ConfirmDialog, {
     componentProps: {
@@ -28,7 +28,7 @@ export async function inputDialog(
   placeholder?: string,
   defaultValue?: string
 ): Promise<string | null> {
-  const { InputDialog } = await import("@/src/components/dialogs/input-dialog");
+  const { InputDialog } = await import("@/src/_pages/_dialogs/input-dialog");
   return openDialog<string | null>(InputDialog, {
     componentProps: {
       title,
@@ -43,9 +43,7 @@ export async function selectDialog<T>(
   options: Array<{ label: string; value: T }>,
   defaultValue?: T
 ): Promise<T | null> {
-  const { SelectDialog } = await import(
-    "@/src/components/dialogs/select-dialog"
-  );
+  const { SelectDialog } = await import("@/src/_pages/_dialogs/select-dialog");
   return openDialog<T | null>(SelectDialog, {
     componentProps: {
       title,
@@ -61,7 +59,7 @@ export async function loadingDialog(
   duration?: number
 ): Promise<boolean> {
   const { LoadingDialog } = await import(
-    "@/src/components/dialogs/loading-dialog"
+    "@/src/_pages/_dialogs/loading-dialog"
   );
   return openDialog<boolean>(LoadingDialog, {
     componentProps: {

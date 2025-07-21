@@ -605,7 +605,7 @@ function CurrencyAsyncFormExample() {
   );
 }
 
-export default function CurrencyExamples() {
+export function CurrencyExamples() {
   const t = useTranslations("inputs.currencyExamples");
 
   return (

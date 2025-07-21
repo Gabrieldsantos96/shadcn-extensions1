@@ -12,3 +12,11 @@ export default function RootPage({
 
   return <Home />;
 }
+
+export async function generateStaticParams() {
+  const locales = ["pt", "en"];
+
+  return locales.map((lang) => ({
+    lang,
+  }));
+}
